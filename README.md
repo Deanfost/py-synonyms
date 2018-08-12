@@ -5,3 +5,4 @@ creates a similar string from it.
 ## Getting started
 
 ## Libraries
+[Thesaurus API](https://github.com/Manwholikespie/thesaurus)
