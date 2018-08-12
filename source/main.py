@@ -14,6 +14,7 @@ def handle_input():
     if console == '0':
         pass
     else:
+        print("\nContacting thesaurus.com...")
         # Parse sentence into separte words
         words = console.split(' ')
         # Search for synonyms in thesaurus.com
@@ -26,7 +27,7 @@ def handle_input():
                 to_add = random.choice(synonyms)
             else:
                 to_add = item
-            print(item + "->" + to_add)
+            print(item + " -> " + to_add)
             syns.append(to_add)
 
         # Create a string from the synonyms
