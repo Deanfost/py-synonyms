@@ -98,4 +98,7 @@ def handle_input():
         handle_input()
 
 # Start the program
-handle_input()
+if __name__ == "__main__":
+    handle_input()
+else:
+    print("Please run 'main.py' as the top-level module.")
